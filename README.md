@@ -1,6 +1,4 @@
 # Experiment No. 6: How can you write a single function that automatically reads both .csv and .json files into a list of dictionaries?
-## Name: THIRUMURUGAN R
-## Register No.:212223220118
 
 ## Aim: 
 To write a single Python function that can automatically detect the file type (.csv or .json) and read its contents into a list of dictionaries.
@@ -14,12 +12,47 @@ This experiment explores the concept of creating a versatile and reusable functi
 
 - The function will check the file's extension and then call the correct parsing logic, providing a seamless user experience.
 
-## AI Tools Required:
-In this experiment, we'll use two different AI tools to generate the Python code and compare their outputs. This will allow us to analyze their strengths, weaknesses, and the quality of their generated solutions.
+---
 
-- AI Tool 1: Google Gemini
+#  AI Tools Required:
 
-- AI Tool 2: ChatGPT
+## CHATGPT
+## CLAUDE
+## GEMINI
+
+## Algorithm Overview
+
+### **Step-by-Step Algorithm for Multi-AI Tool Integration**
+
+1. **Set Up API Integrations**:
+   - Install necessary libraries and set up the credentials for each AI tool: **ChatGPT**, **Claude**, and **Gemini**.
+   - Use `requests` or other relevant libraries for API integration.
+
+2. **Input Healthcare Query**:
+   - Accept healthcare-related data such as symptoms, medical history, and test results.
+
+3. **Format Prompts**:
+   - Three types of prompts will be used:
+     - **Straightforward Prompt**: Asking for a diagnosis based on patient symptoms.
+     - **Tabular Format**: Presenting data in a table format for structured input.
+     - **Missing Word Prompt**: Providing a partially completed sentence for prediction.
+   
+4. **Submit Prompts to Each AI Tool**:
+   - Send the formatted prompts to **ChatGPT**, **Claude**, and **Gemini** APIs.
+
+5. **Receive and Parse Responses**:
+   - Collect and extract useful information such as diagnosis and treatment suggestions.
+
+6. **Comparison of Outputs**:
+   - Compare the responses based on **accuracy**, **clarity**, **simplicity**, and **user experience**.
+
+7. **Generate Actionable Insights**:
+   - Provide a summary of findings and suggest which tool performs best for specific types of queries.
+
+8. **Create Final Report**:
+   - Compile the results and insights into a comprehensive evaluation report.
+
+---
 
 ## Experiment:
 ### Prompt for AI Tools:
